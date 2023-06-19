@@ -14,22 +14,6 @@ import TabelaEmprestimo from './pages/TabelaEmprestimo';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home></Home>,
-  },
-  {
-    path: "/item",
-    element: <Item></Item>,
-  },
-  {
-    path: "/usuario",
-    element: <Usuario></Usuario>,
-  },
-  {
-    path: "/emprestimo",
-    element: <Emprestimo></Emprestimo>,
-  },
-  {
     path: "/tabela-item",
     element: <TabelaItem></TabelaItem>,
   },

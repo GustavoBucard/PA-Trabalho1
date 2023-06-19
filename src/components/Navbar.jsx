@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand" to="/">Home</Link>
-        <Link className="navbar-brand" to="/tabela-usuario">Usuário</Link>
-        <Link className="navbar-brand" to="/tabela-item">Item</Link>
-        <Link className="navbar-brand" to="/tabela-emprestimo">Emprestimo</Link>
+    <nav className="navbar navbar-expand-lg">
+      <a class="navbar-brand">
+        <img src='./../public/logo.png' width="30" height="30" alt=""></img>
+      </a>
+      <Link className="nav-item" to="/tabela-usuario">Usuários</Link>
+      <Link className="nav-item" to="/tabela-item">Itens</Link>
+      <Link className="nav-item" to="/tabela-emprestimo">Empréstimos</Link>
     </nav>
   );
 };
